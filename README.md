@@ -1,4 +1,4 @@
-### unite-matcher-hide-hidden-directories
+# unite-matcher-hide-hidden-directories
 ## What it is
 You need [unite.vim](https://github.com/Shougo/unite.vim) in order to use this
 plugin. This plugin is ~~a ripoff of~~ heavily based off of
