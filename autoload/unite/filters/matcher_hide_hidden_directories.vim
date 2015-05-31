@@ -46,7 +46,7 @@ function! s:matcher.filter(candidates, context) "{{{
         \   ['/%.[^/]*/'], []) :
         \ filter(a:candidates, "
         \   has_key(v:val, 'action__path')
-        \    && v:val.action__path !~ '\\/\\.'")
+        \    && v:val.action__path !~ '/\\.[^/]*/'")
 endfunction"}}}
 
 let &cpo = s:save_cpo
